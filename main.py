@@ -32,7 +32,7 @@ try:
         print("\r[+]Packets sent: " + str(packet_count), end="")
         time.sleep(2)
 except KeyboardInterrupt:
-    print("\n[+]Detected CTRL^C....Resetting ARP Tables.....Please wait\n")
+    print("\n[+]Detected CTRL^C....Resetting ARP Tables.....Please wait:)\n")
     restore("192.168.0.3", "192.168.0.1")
     restore("192.168.0.1", "192.168.0.3")
 
